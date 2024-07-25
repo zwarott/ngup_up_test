@@ -1,0 +1,698 @@
+’Ù(a6fdd45fa16b53ee909ccfef65542fd380e2a924œ  ©X_parcely¤geom©X_parcelyÚs±<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis maxScale="0" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" readOnly="0" version="3.28.12-Firenze" simplifyDrawingHints="1" labelsEnabled="0" symbologyReferenceScale="-1" styleCategories="AllStyleCategories" minScale="100000000">
+ <flags>
+  <Identifiable>1</Identifiable>
+  <Removable>1</Removable>
+  <Searchable>1</Searchable>
+  <Private>0</Private>
+ </flags>
+ <temporal startExpression="" endField="" limitMode="0" mode="0" accumulate="0" startField="" endExpression="" enabled="0" durationField="" fixedDuration="0" durationUnit="min">
+  <fixedRange>
+   <start></start>
+   <end></end>
+  </fixedRange>
+ </temporal>
+ <elevation extrusionEnabled="0" clamping="Terrain" zscale="1" respectLayerSymbol="1" extrusion="0" zoffset="0" binding="Centroid" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" symbology="Line">
+  <data-defined-properties>
+   <Option type="Map">
+    <Option type="QString" value="" name="name"/>
+    <Option name="properties"/>
+    <Option type="QString" value="collection" name="type"/>
+   </Option>
+  </data-defined-properties>
+  <profileLineSymbol>
+   <symbol is_animated="0" alpha="1" clip_to_extent="1" force_rhr="0" type="line" name="" frame_rate="10">
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </data_defined_properties>
+    <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+     <Option type="Map">
+      <Option type="QString" value="0" name="align_dash_pattern"/>
+      <Option type="QString" value="square" name="capstyle"/>
+      <Option type="QString" value="5;2" name="customdash"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+      <Option type="QString" value="MM" name="customdash_unit"/>
+      <Option type="QString" value="0" name="dash_pattern_offset"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+      <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+      <Option type="QString" value="0" name="draw_inside_polygon"/>
+      <Option type="QString" value="bevel" name="joinstyle"/>
+      <Option type="QString" value="225,89,137,255" name="line_color"/>
+      <Option type="QString" value="solid" name="line_style"/>
+      <Option type="QString" value="0.6" name="line_width"/>
+      <Option type="QString" value="MM" name="line_width_unit"/>
+      <Option type="QString" value="0" name="offset"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+      <Option type="QString" value="MM" name="offset_unit"/>
+      <Option type="QString" value="0" name="ring_filter"/>
+      <Option type="QString" value="0" name="trim_distance_end"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+      <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+      <Option type="QString" value="0" name="trim_distance_start"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+      <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+      <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+      <Option type="QString" value="0" name="use_custom_dash"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+     </Option>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option type="QString" value="" name="name"/>
+       <Option name="properties"/>
+       <Option type="QString" value="collection" name="type"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </profileLineSymbol>
+  <profileFillSymbol>
+   <symbol is_animated="0" alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="" frame_rate="10">
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </data_defined_properties>
+    <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+     <Option type="Map">
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+      <Option type="QString" value="225,89,137,255" name="color"/>
+      <Option type="QString" value="bevel" name="joinstyle"/>
+      <Option type="QString" value="0,0" name="offset"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+      <Option type="QString" value="MM" name="offset_unit"/>
+      <Option type="QString" value="161,64,98,255" name="outline_color"/>
+      <Option type="QString" value="solid" name="outline_style"/>
+      <Option type="QString" value="0.2" name="outline_width"/>
+      <Option type="QString" value="MM" name="outline_width_unit"/>
+      <Option type="QString" value="solid" name="style"/>
+     </Option>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option type="QString" value="" name="name"/>
+       <Option name="properties"/>
+       <Option type="QString" value="collection" name="type"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </profileFillSymbol>
+  <profileMarkerSymbol>
+   <symbol is_animated="0" alpha="1" clip_to_extent="1" force_rhr="0" type="marker" name="" frame_rate="10">
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </data_defined_properties>
+    <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+     <Option type="Map">
+      <Option type="QString" value="0" name="angle"/>
+      <Option type="QString" value="square" name="cap_style"/>
+      <Option type="QString" value="225,89,137,255" name="color"/>
+      <Option type="QString" value="1" name="horizontal_anchor_point"/>
+      <Option type="QString" value="bevel" name="joinstyle"/>
+      <Option type="QString" value="diamond" name="name"/>
+      <Option type="QString" value="0,0" name="offset"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+      <Option type="QString" value="MM" name="offset_unit"/>
+      <Option type="QString" value="161,64,98,255" name="outline_color"/>
+      <Option type="QString" value="solid" name="outline_style"/>
+      <Option type="QString" value="0.2" name="outline_width"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+      <Option type="QString" value="MM" name="outline_width_unit"/>
+      <Option type="QString" value="diameter" name="scale_method"/>
+      <Option type="QString" value="3" name="size"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+      <Option type="QString" value="MM" name="size_unit"/>
+      <Option type="QString" value="1" name="vertical_anchor_point"/>
+     </Option>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option type="QString" value="" name="name"/>
+       <Option name="properties"/>
+       <Option type="QString" value="collection" name="type"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </profileMarkerSymbol>
+ </elevation>
+ <renderer-v2 referencescale="-1" forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+  <symbols>
+   <symbol is_animated="0" alpha="1" clip_to_extent="1" force_rhr="0" type="fill" name="0" frame_rate="10">
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </data_defined_properties>
+    <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+     <Option type="Map">
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+      <Option type="QString" value="190,207,80,0" name="color"/>
+      <Option type="QString" value="bevel" name="joinstyle"/>
+      <Option type="QString" value="0,0" name="offset"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+      <Option type="QString" value="MM" name="offset_unit"/>
+      <Option type="QString" value="166,164,164,255" name="outline_color"/>
+      <Option type="QString" value="solid" name="outline_style"/>
+      <Option type="QString" value="0.1" name="outline_width"/>
+      <Option type="QString" value="MM" name="outline_width_unit"/>
+      <Option type="QString" value="solid" name="style"/>
+     </Option>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option type="QString" value="" name="name"/>
+       <Option name="properties"/>
+       <Option type="QString" value="collection" name="type"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </symbols>
+  <rotation/>
+  <sizescale/>
+ </renderer-v2>
+ <customproperties>
+  <Option type="Map">
+   <Option type="int" value="0" name="embeddedWidgets/count"/>
+   <Option name="variableNames"/>
+   <Option name="variableValues"/>
+  </Option>
+ </customproperties>
+ <blendMode>0</blendMode>
+ <featureBlendMode>0</featureBlendMode>
+ <layerOpacity>1</layerOpacity>
+ <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+  <DiagramCategory direction="0" penWidth="0" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" minScaleDenominator="0" barWidth="5" showAxis="1" spacing="5" scaleBasedVisibility="0" spacingUnit="MM" backgroundColor="#ffffff" sizeType="MM" lineSizeType="MM" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" minimumSize="0" opacity="1" height="15" scaleDependency="Area" backgroundAlpha="255" enabled="0" diagramOrientation="Up" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" width="15" spacingUnitScale="3x:0,0,0,0,0,0" rotationOffset="270">
+   <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" italic="0" bold="0" underline="0" strikethrough="0" style=""/>
+   <axisSymbol>
+    <symbol is_animated="0" alpha="1" clip_to_extent="1" force_rhr="0" type="line" name="" frame_rate="10">
+     <data_defined_properties>
+      <Option type="Map">
+       <Option type="QString" value="" name="name"/>
+       <Option name="properties"/>
+       <Option type="QString" value="collection" name="type"/>
+      </Option>
+     </data_defined_properties>
+     <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+      <Option type="Map">
+       <Option type="QString" value="0" name="align_dash_pattern"/>
+       <Option type="QString" value="square" name="capstyle"/>
+       <Option type="QString" value="5;2" name="customdash"/>
+       <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+       <Option type="QString" value="MM" name="customdash_unit"/>
+       <Option type="QString" value="0" name="dash_pattern_offset"/>
+       <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+       <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+       <Option type="QString" value="0" name="draw_inside_polygon"/>
+       <Option type="QString" value="bevel" name="joinstyle"/>
+       <Option type="QString" value="35,35,35,255" name="line_color"/>
+       <Option type="QString" value="solid" name="line_style"/>
+       <Option type="QString" value="0.26" name="line_width"/>
+       <Option type="QString" value="MM" name="line_width_unit"/>
+       <Option type="QString" value="0" name="offset"/>
+       <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+       <Option type="QString" value="MM" name="offset_unit"/>
+       <Option type="QString" value="0" name="ring_filter"/>
+       <Option type="QString" value="0" name="trim_distance_end"/>
+       <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+       <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+       <Option type="QString" value="0" name="trim_distance_start"/>
+       <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+       <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+       <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+       <Option type="QString" value="0" name="use_custom_dash"/>
+       <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+      </Option>
+      <data_defined_properties>
+       <Option type="Map">
+        <Option type="QString" value="" name="name"/>
+        <Option name="properties"/>
+        <Option type="QString" value="collection" name="type"/>
+       </Option>
+      </data_defined_properties>
+     </layer>
+    </symbol>
+   </axisSymbol>
+  </DiagramCategory>
+ </SingleCategoryDiagramRenderer>
+ <DiagramLayerSettings placement="1" zIndex="0" dist="0" priority="0" obstacle="0" showAll="1" linePlacementFlags="18">
+  <properties>
+   <Option type="Map">
+    <Option type="QString" value="" name="name"/>
+    <Option name="properties"/>
+    <Option type="QString" value="collection" name="type"/>
+   </Option>
+  </properties>
+ </DiagramLayerSettings>
+ <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+  <activeChecks/>
+  <checkConfiguration type="Map">
+   <Option type="Map" name="QgsGeometryGapCheck">
+    <Option type="double" value="0" name="allowedGapsBuffer"/>
+    <Option type="bool" value="false" name="allowedGapsEnabled"/>
+    <Option type="QString" value="" name="allowedGapsLayer"/>
+   </Option>
+  </checkConfiguration>
+ </geometryOptions>
+ <legend showLabelLegend="0" type="default-vector"/>
+ <referencedLayers/>
+ <fieldConfiguration>
+  <field name="fid" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="gml_id" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="id" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="nespravny" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="kmenovecis" configurationFlags="None">
+   <editWidget type="Range">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="pododdelen" configurationFlags="None">
+   <editWidget type="Range">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="vymeraparc" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="zpusobyvyu" configurationFlags="None">
+   <editWidget type="Range">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="druhcislov" configurationFlags="None">
+   <editWidget type="Range">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="druhpozemk" configurationFlags="None">
+   <editWidget type="Range">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="katastraln" configurationFlags="None">
+   <editWidget type="Range">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="platiod" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="platido" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="idtransakc" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="rizeniid" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="bonitovany" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="bonitova_1" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="bonitova_2" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="bonitova_3" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="zpusobochr" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="zpusoboc_1" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="zpusoboc_2" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="zpusoboc_3" configurationFlags="None">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+ </fieldConfiguration>
+ <aliases>
+  <alias field="fid" name="" index="0"/>
+  <alias field="gml_id" name="" index="1"/>
+  <alias field="id" name="" index="2"/>
+  <alias field="nespravny" name="" index="3"/>
+  <alias field="kmenovecis" name="" index="4"/>
+  <alias field="pododdelen" name="" index="5"/>
+  <alias field="vymeraparc" name="" index="6"/>
+  <alias field="zpusobyvyu" name="" index="7"/>
+  <alias field="druhcislov" name="" index="8"/>
+  <alias field="druhpozemk" name="" index="9"/>
+  <alias field="katastraln" name="" index="10"/>
+  <alias field="platiod" name="" index="11"/>
+  <alias field="platido" name="" index="12"/>
+  <alias field="idtransakc" name="" index="13"/>
+  <alias field="rizeniid" name="" index="14"/>
+  <alias field="bonitovany" name="" index="15"/>
+  <alias field="bonitova_1" name="" index="16"/>
+  <alias field="bonitova_2" name="" index="17"/>
+  <alias field="bonitova_3" name="" index="18"/>
+  <alias field="zpusobochr" name="" index="19"/>
+  <alias field="zpusoboc_1" name="" index="20"/>
+  <alias field="zpusoboc_2" name="" index="21"/>
+  <alias field="zpusoboc_3" name="" index="22"/>
+ </aliases>
+ <defaults>
+  <default field="fid" expression="" applyOnUpdate="0"/>
+  <default field="gml_id" expression="" applyOnUpdate="0"/>
+  <default field="id" expression="" applyOnUpdate="0"/>
+  <default field="nespravny" expression="" applyOnUpdate="0"/>
+  <default field="kmenovecis" expression="" applyOnUpdate="0"/>
+  <default field="pododdelen" expression="" applyOnUpdate="0"/>
+  <default field="vymeraparc" expression="" applyOnUpdate="0"/>
+  <default field="zpusobyvyu" expression="" applyOnUpdate="0"/>
+  <default field="druhcislov" expression="" applyOnUpdate="0"/>
+  <default field="druhpozemk" expression="" applyOnUpdate="0"/>
+  <default field="katastraln" expression="" applyOnUpdate="0"/>
+  <default field="platiod" expression="" applyOnUpdate="0"/>
+  <default field="platido" expression="" applyOnUpdate="0"/>
+  <default field="idtransakc" expression="" applyOnUpdate="0"/>
+  <default field="rizeniid" expression="" applyOnUpdate="0"/>
+  <default field="bonitovany" expression="" applyOnUpdate="0"/>
+  <default field="bonitova_1" expression="" applyOnUpdate="0"/>
+  <default field="bonitova_2" expression="" applyOnUpdate="0"/>
+  <default field="bonitova_3" expression="" applyOnUpdate="0"/>
+  <default field="zpusobochr" expression="" applyOnUpdate="0"/>
+  <default field="zpusoboc_1" expression="" applyOnUpdate="0"/>
+  <default field="zpusoboc_2" expression="" applyOnUpdate="0"/>
+  <default field="zpusoboc_3" expression="" applyOnUpdate="0"/>
+ </defaults>
+ <constraints>
+  <constraint unique_strength="1" constraints="3" exp_strength="0" field="fid" notnull_strength="1"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="gml_id" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="id" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="nespravny" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="kmenovecis" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="pododdelen" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="vymeraparc" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="zpusobyvyu" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="druhcislov" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="druhpozemk" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="katastraln" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="platiod" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="platido" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="idtransakc" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="rizeniid" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="bonitovany" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="bonitova_1" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="bonitova_2" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="bonitova_3" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="zpusobochr" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="zpusoboc_1" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="zpusoboc_2" notnull_strength="0"/>
+  <constraint unique_strength="0" constraints="0" exp_strength="0" field="zpusoboc_3" notnull_strength="0"/>
+ </constraints>
+ <constraintExpressions>
+  <constraint desc="" field="fid" exp=""/>
+  <constraint desc="" field="gml_id" exp=""/>
+  <constraint desc="" field="id" exp=""/>
+  <constraint desc="" field="nespravny" exp=""/>
+  <constraint desc="" field="kmenovecis" exp=""/>
+  <constraint desc="" field="pododdelen" exp=""/>
+  <constraint desc="" field="vymeraparc" exp=""/>
+  <constraint desc="" field="zpusobyvyu" exp=""/>
+  <constraint desc="" field="druhcislov" exp=""/>
+  <constraint desc="" field="druhpozemk" exp=""/>
+  <constraint desc="" field="katastraln" exp=""/>
+  <constraint desc="" field="platiod" exp=""/>
+  <constraint desc="" field="platido" exp=""/>
+  <constraint desc="" field="idtransakc" exp=""/>
+  <constraint desc="" field="rizeniid" exp=""/>
+  <constraint desc="" field="bonitovany" exp=""/>
+  <constraint desc="" field="bonitova_1" exp=""/>
+  <constraint desc="" field="bonitova_2" exp=""/>
+  <constraint desc="" field="bonitova_3" exp=""/>
+  <constraint desc="" field="zpusobochr" exp=""/>
+  <constraint desc="" field="zpusoboc_1" exp=""/>
+  <constraint desc="" field="zpusoboc_2" exp=""/>
+  <constraint desc="" field="zpusoboc_3" exp=""/>
+ </constraintExpressions>
+ <expressionfields/>
+ <attributeactions>
+  <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+ </attributeactions>
+ <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+  <columns>
+   <column hidden="0" width="-1" type="field" name="fid"/>
+   <column hidden="0" width="-1" type="field" name="gml_id"/>
+   <column hidden="0" width="-1" type="field" name="id"/>
+   <column hidden="0" width="-1" type="field" name="nespravny"/>
+   <column hidden="0" width="-1" type="field" name="kmenovecis"/>
+   <column hidden="0" width="-1" type="field" name="pododdelen"/>
+   <column hidden="0" width="-1" type="field" name="vymeraparc"/>
+   <column hidden="0" width="-1" type="field" name="zpusobyvyu"/>
+   <column hidden="0" width="-1" type="field" name="druhcislov"/>
+   <column hidden="0" width="-1" type="field" name="druhpozemk"/>
+   <column hidden="0" width="-1" type="field" name="katastraln"/>
+   <column hidden="0" width="-1" type="field" name="platiod"/>
+   <column hidden="0" width="-1" type="field" name="platido"/>
+   <column hidden="0" width="-1" type="field" name="idtransakc"/>
+   <column hidden="0" width="-1" type="field" name="rizeniid"/>
+   <column hidden="0" width="-1" type="field" name="bonitovany"/>
+   <column hidden="0" width="-1" type="field" name="bonitova_1"/>
+   <column hidden="0" width="-1" type="field" name="bonitova_2"/>
+   <column hidden="0" width="-1" type="field" name="bonitova_3"/>
+   <column hidden="0" width="-1" type="field" name="zpusobochr"/>
+   <column hidden="0" width="-1" type="field" name="zpusoboc_1"/>
+   <column hidden="0" width="-1" type="field" name="zpusoboc_2"/>
+   <column hidden="0" width="-1" type="field" name="zpusoboc_3"/>
+   <column hidden="1" width="-1" type="actions"/>
+  </columns>
+ </attributetableconfig>
+ <conditionalstyles>
+  <rowstyles/>
+  <fieldstyles/>
+ </conditionalstyles>
+ <storedexpressions/>
+ <editform tolerant="1"></editform>
+ <editforminit/>
+ <editforminitcodesource>0</editforminitcodesource>
+ <editforminitfilepath></editforminitfilepath>
+ <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+ <featformsuppress>0</featformsuppress>
+ <editorlayout>generatedlayout</editorlayout>
+ <editable>
+  <field editable="1" name="bonitova_1"/>
+  <field editable="1" name="bonitova_2"/>
+  <field editable="1" name="bonitova_3"/>
+  <field editable="1" name="bonitovany"/>
+  <field editable="1" name="druhcislov"/>
+  <field editable="1" name="druhpozemk"/>
+  <field editable="1" name="fid"/>
+  <field editable="1" name="gml_id"/>
+  <field editable="1" name="id"/>
+  <field editable="1" name="idtransakc"/>
+  <field editable="1" name="katastraln"/>
+  <field editable="1" name="kmenovecis"/>
+  <field editable="1" name="nespravny"/>
+  <field editable="1" name="platido"/>
+  <field editable="1" name="platiod"/>
+  <field editable="1" name="pododdelen"/>
+  <field editable="1" name="rizeniid"/>
+  <field editable="1" name="vymeraparc"/>
+  <field editable="1" name="zpusoboc_1"/>
+  <field editable="1" name="zpusoboc_2"/>
+  <field editable="1" name="zpusoboc_3"/>
+  <field editable="1" name="zpusobochr"/>
+  <field editable="1" name="zpusobyvyu"/>
+ </editable>
+ <labelOnTop>
+  <field labelOnTop="0" name="bonitova_1"/>
+  <field labelOnTop="0" name="bonitova_2"/>
+  <field labelOnTop="0" name="bonitova_3"/>
+  <field labelOnTop="0" name="bonitovany"/>
+  <field labelOnTop="0" name="druhcislov"/>
+  <field labelOnTop="0" name="druhpozemk"/>
+  <field labelOnTop="0" name="fid"/>
+  <field labelOnTop="0" name="gml_id"/>
+  <field labelOnTop="0" name="id"/>
+  <field labelOnTop="0" name="idtransakc"/>
+  <field labelOnTop="0" name="katastraln"/>
+  <field labelOnTop="0" name="kmenovecis"/>
+  <field labelOnTop="0" name="nespravny"/>
+  <field labelOnTop="0" name="platido"/>
+  <field labelOnTop="0" name="platiod"/>
+  <field labelOnTop="0" name="pododdelen"/>
+  <field labelOnTop="0" name="rizeniid"/>
+  <field labelOnTop="0" name="vymeraparc"/>
+  <field labelOnTop="0" name="zpusoboc_1"/>
+  <field labelOnTop="0" name="zpusoboc_2"/>
+  <field labelOnTop="0" name="zpusoboc_3"/>
+  <field labelOnTop="0" name="zpusobochr"/>
+  <field labelOnTop="0" name="zpusobyvyu"/>
+ </labelOnTop>
+ <reuseLastValue>
+  <field reuseLastValue="0" name="bonitova_1"/>
+  <field reuseLastValue="0" name="bonitova_2"/>
+  <field reuseLastValue="0" name="bonitova_3"/>
+  <field reuseLastValue="0" name="bonitovany"/>
+  <field reuseLastValue="0" name="druhcislov"/>
+  <field reuseLastValue="0" name="druhpozemk"/>
+  <field reuseLastValue="0" name="fid"/>
+  <field reuseLastValue="0" name="gml_id"/>
+  <field reuseLastValue="0" name="id"/>
+  <field reuseLastValue="0" name="idtransakc"/>
+  <field reuseLastValue="0" name="katastraln"/>
+  <field reuseLastValue="0" name="kmenovecis"/>
+  <field reuseLastValue="0" name="nespravny"/>
+  <field reuseLastValue="0" name="platido"/>
+  <field reuseLastValue="0" name="platiod"/>
+  <field reuseLastValue="0" name="pododdelen"/>
+  <field reuseLastValue="0" name="rizeniid"/>
+  <field reuseLastValue="0" name="vymeraparc"/>
+  <field reuseLastValue="0" name="zpusoboc_1"/>
+  <field reuseLastValue="0" name="zpusoboc_2"/>
+  <field reuseLastValue="0" name="zpusoboc_3"/>
+  <field reuseLastValue="0" name="zpusobochr"/>
+  <field reuseLastValue="0" name="zpusobyvyu"/>
+ </reuseLastValue>
+ <dataDefinedFieldProperties/>
+ <widgets/>
+ <previewExpression>"gml_id"</previewExpression>
+ <mapTip></mapTip>
+ <layerGeometryType>2</layerGeometryType>
+</qgis>
+Ú^<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:ogc="http://www.opengis.net/ogc">
+ <NamedLayer>
+  <se:Name>01 parcela</se:Name>
+  <UserStyle>
+   <se:Name>01 parcela</se:Name>
+   <se:FeatureTypeStyle>
+    <se:Rule>
+     <se:Name>Single symbol</se:Name>
+     <se:PolygonSymbolizer>
+      <se:Fill>
+       <se:SvgParameter name="fill">#becf50</se:SvgParameter>
+       <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
+      </se:Fill>
+      <se:Stroke>
+       <se:SvgParameter name="stroke">#a6a4a4</se:SvgParameter>
+       <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+       <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+      </se:Stroke>
+     </se:PolygonSymbolizer>
+    </se:Rule>
+   </se:FeatureTypeStyle>
+  </UserStyle>
+ </NamedLayer>
+</StyledLayerDescriptor>
+Ã¸Thu Jul 25 10:18:26 2024 À·2024-07-25T08:18:26.000

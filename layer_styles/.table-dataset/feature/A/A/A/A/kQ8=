@@ -1,0 +1,250 @@
+íŸ(a6fdd45fa16b53ee909ccfef65542fd380e2a924ú††¨PlochyZmen_p§geomªPlochyZmen_p_Druh_Etapizace⁄+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.28.12-Firenze" styleCategories="Forms|Relations">
+ <referencedLayers/>
+ <fieldConfiguration>
+  <field name="fid">
+   <editWidget type="TextEdit">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="Druh">
+   <editWidget type="ValueMap">
+    <config>
+     <Option type="Map">
+      <Option type="List" name="map">
+       <Option type="Map">
+        <Option value="Z" type="QString" name="Z"/>
+       </Option>
+       <Option type="Map">
+        <Option value="T" type="QString" name="T"/>
+       </Option>
+       <Option type="Map">
+        <Option value="K" type="QString" name="K"/>
+       </Option>
+      </Option>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="Ident">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="false" type="bool" name="IsMultiline"/>
+      <Option value="false" type="bool" name="UseHtml"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="Etapizace">
+   <editWidget type="ValueMap">
+    <config>
+     <Option type="Map">
+      <Option type="List" name="map">
+       <Option type="Map">
+        <Option value="E" type="QString" name="E"/>
+       </Option>
+      </Option>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+ </fieldConfiguration>
+ <editform tolerant="1"></editform>
+ <editforminit/>
+ <editforminitcodesource>0</editforminitcodesource>
+ <editforminitfilepath></editforminitfilepath>
+ <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+ <featformsuppress>0</featformsuppress>
+ <editorlayout>generatedlayout</editorlayout>
+ <editable>
+  <field editable="1" name="Druh"/>
+  <field editable="1" name="Etapizace"/>
+  <field editable="1" name="Id"/>
+  <field editable="1" name="Ident"/>
+  <field editable="1" name="fid"/>
+ </editable>
+ <labelOnTop>
+  <field name="Druh" labelOnTop="0"/>
+  <field name="Etapizace" labelOnTop="0"/>
+  <field name="Id" labelOnTop="0"/>
+  <field name="Ident" labelOnTop="0"/>
+  <field name="fid" labelOnTop="0"/>
+ </labelOnTop>
+ <reuseLastValue>
+  <field reuseLastValue="0" name="Druh"/>
+  <field reuseLastValue="0" name="Etapizace"/>
+  <field reuseLastValue="0" name="Id"/>
+  <field reuseLastValue="0" name="Ident"/>
+  <field reuseLastValue="0" name="fid"/>
+ </reuseLastValue>
+ <dataDefinedFieldProperties/>
+ <widgets/>
+ <layerGeometryType>2</layerGeometryType>
+</qgis>
+⁄§<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" version="1.1.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <NamedLayer>
+  <se:Name>01 plochy zmƒõn</se:Name>
+  <UserStyle>
+   <se:Name>01 plochy zmƒõn</se:Name>
+   <se:FeatureTypeStyle>
+    <se:Rule>
+     <se:Name>zastaviteln√° plocha</se:Name>
+     <se:Description>
+      <se:Title>zastaviteln√° plocha</se:Title>
+     </se:Description>
+     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+      <ogc:PropertyIsLike singleChar="_" escape="\" wildCard="%">
+       <ogc:PropertyName>Id</ogc:PropertyName>
+       <ogc:Literal>Z.%</ogc:Literal>
+      </ogc:PropertyIsLike>
+     </ogc:Filter>
+     <se:PolygonSymbolizer>
+      <se:Fill>
+       <se:SvgParameter name="fill">#ffebed</se:SvgParameter>
+      </se:Fill>
+     </se:PolygonSymbolizer>
+     <se:LineSymbolizer>
+      <se:Stroke>
+       <se:GraphicStroke>
+        <se:Graphic>
+         <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+           <se:SvgParameter name="fill">#000000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke/>
+         </se:Mark>
+         <se:Size>4</se:Size>
+        </se:Graphic>
+        <se:Gap>
+         <ogc:Literal>4</ogc:Literal>
+        </se:Gap>
+       </se:GraphicStroke>
+      </se:Stroke>
+     </se:LineSymbolizer>
+    </se:Rule>
+    <se:Rule>
+     <se:Name>plocha p≈ôestavby</se:Name>
+     <se:Description>
+      <se:Title>plocha p≈ôestavby</se:Title>
+     </se:Description>
+     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+      <ogc:PropertyIsLike singleChar="_" escape="\" wildCard="%">
+       <ogc:PropertyName>Id</ogc:PropertyName>
+       <ogc:Literal>P.%</ogc:Literal>
+      </ogc:PropertyIsLike>
+     </ogc:Filter>
+     <se:PolygonSymbolizer>
+      <se:Fill>
+       <se:SvgParameter name="fill">#e4e9f7</se:SvgParameter>
+      </se:Fill>
+     </se:PolygonSymbolizer>
+     <se:LineSymbolizer>
+      <se:Stroke>
+       <se:GraphicStroke>
+        <se:Graphic>
+         <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+           <se:SvgParameter name="fill">#000000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke/>
+         </se:Mark>
+         <se:Size>4</se:Size>
+        </se:Graphic>
+        <se:Gap>
+         <ogc:Literal>4</ogc:Literal>
+        </se:Gap>
+       </se:GraphicStroke>
+      </se:Stroke>
+     </se:LineSymbolizer>
+    </se:Rule>
+    <se:Rule>
+     <se:Name>plocha zmƒõny v krajinƒõ</se:Name>
+     <se:Description>
+      <se:Title>plocha zmƒõny v krajinƒõ</se:Title>
+     </se:Description>
+     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+      <ogc:PropertyIsLike singleChar="_" escape="\" wildCard="%">
+       <ogc:PropertyName>Id</ogc:PropertyName>
+       <ogc:Literal>K.%</ogc:Literal>
+      </ogc:PropertyIsLike>
+     </ogc:Filter>
+     <se:PolygonSymbolizer>
+      <se:Fill>
+       <se:SvgParameter name="fill">#f4ffe0</se:SvgParameter>
+      </se:Fill>
+     </se:PolygonSymbolizer>
+     <se:LineSymbolizer>
+      <se:Stroke>
+       <se:GraphicStroke>
+        <se:Graphic>
+         <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+           <se:SvgParameter name="fill">#000000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke/>
+         </se:Mark>
+         <se:Size>4</se:Size>
+        </se:Graphic>
+        <se:Gap>
+         <ogc:Literal>4</ogc:Literal>
+        </se:Gap>
+       </se:GraphicStroke>
+      </se:Stroke>
+     </se:LineSymbolizer>
+    </se:Rule>
+    <se:Rule>
+     <se:TextSymbolizer>
+      <se:Label>
+       <!--SE Export for Id not implemented yet-->Placeholder</se:Label>
+      <se:Font>
+       <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+       <se:SvgParameter name="font-size">19</se:SvgParameter>
+      </se:Font>
+      <se:LabelPlacement>
+       <se:PointPlacement>
+        <se:AnchorPoint>
+         <se:AnchorPointX>0</se:AnchorPointX>
+         <se:AnchorPointY>0.5</se:AnchorPointY>
+        </se:AnchorPoint>
+       </se:PointPlacement>
+      </se:LabelPlacement>
+      <se:Halo>
+       <se:Radius>1.5</se:Radius>
+       <se:Fill>
+        <se:SvgParameter name="fill">#000000</se:SvgParameter>
+       </se:Fill>
+      </se:Halo>
+      <se:Fill>
+       <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+      </se:Fill>
+      <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+     </se:TextSymbolizer>
+    </se:Rule>
+   </se:FeatureTypeStyle>
+  </UserStyle>
+ </NamedLayer>
+</StyledLayerDescriptor>
+¬πƒçt kvƒõ 30 08:35:37 2024†¿∑2024-05-30T06:35:37.000
