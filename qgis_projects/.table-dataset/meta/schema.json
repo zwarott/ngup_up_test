@@ -1,1 +1,1 @@
-[{"id": "dcaa96c5-6cd2-2b2f-d3cb-36c57c6286a9", "name": "name", "dataType": "text", "primaryKeyIndex": 0}, {"id": "f4f8e376-6f61-511e-baca-733c7e87c6b9", "name": "metadata", "dataType": "blob"}, {"id": "38bc4f09-8901-498f-92ab-115f59e7df98", "name": "content", "dataType": "blob"}]
+[{"id": "dcaa96c5-6cd2-2b2f-d3cb-36c57c6286a9", "name": "name", "dataType": "text", "primaryKeyIndex": 0}, {"id": "38bc4f09-8901-498f-92ab-115f59e7df98", "name": "content", "dataType": "blob"}, {"id": "fce13285-cdee-be6e-12fd-69e232555ee0", "name": "metadata", "dataType": "text"}]
